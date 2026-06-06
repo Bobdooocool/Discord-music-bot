@@ -1,0 +1,24 @@
+# Bot Configuration
+
+# Bot settings
+BOT_PREFIX = "!"
+BOT_STATUS = "🎵 Music"
+
+# Music settings
+MUSIC_TIMEOUT = 300  # 5 minutes
+MAX_PLAYLIST_SIZE = 100
+MAX_QUEUE_LENGTH = 500
+
+# Voice settings
+PERSONAL_VC_PREFIX = "🎵"
+INACTIVITY_TIMEOUT = 600  # 10 minutes
+
+# Embed colors
+COLOR_SUCCESS = 0x00FF00
+COLOR_ERROR = 0xFF0000
+COLOR_INFO = 0x0000FF
+COLOR_WARNING = 0xFFFF00
+
+# Permissions
+REQUIRE_ADMIN_FOR_BOT_CONFIG = False
+ALLOW_DUPLICATE_SONGS = True
